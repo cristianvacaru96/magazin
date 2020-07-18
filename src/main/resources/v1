@@ -1,0 +1,40 @@
+    Admin
+
+tabela admin
+-id
+-nume
+-prenume
+-email
+-parola
+-drept: owner/admin
+
+poate sa:   -modifica date cont
+            -CRUD produse
+            -if owner ADD and DELETE cont admin
+
+
+    Users
+
+tabela user
+-id
+-nume
+-prenume
+-email
+-parola
+-adresa
+
+poate sa:   -vede lista produse
+            -modifica date cont
+            -comanda produse
+
+
+
+
+
+tabel produse
+-id
+-nume
+-pret
+-cantitate in stoc
+-producator
+-descriere
